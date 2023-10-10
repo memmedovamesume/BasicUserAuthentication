@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/photo_2023_10_01_19_50_22"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/griffy"
+            android:text="Qeydiyyatdan kecin"
+            android:textAlignment="center"
+            android:textColor="@color/header_text_color"
+            android:textSize="38sp" />
+
+        <EditText
+            android:id="@+id/register_name_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="Adiniz"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/register_input_soyad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="Soyad"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/register_input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/register_input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="Sifre"
+            android:inputType="numberPassword"
+            android:padding="10dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/register_input_password_again"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="Tekrar sifre"
+            android:inputType="numberPassword"
+            android:padding="10dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/register_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/button_background"
+            android:fontFamily="@font/griffy"
+            android:text="Tesdiqle"
+            android:textSize="34sp"
+            app:rippleColor="@color/border_color" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
